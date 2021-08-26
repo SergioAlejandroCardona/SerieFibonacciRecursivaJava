@@ -52,7 +52,7 @@ public class SerieFibonacciRecursiva {
     //Metodo que define si el numero de la serie es primo o no
     public static boolean EsPrimo(long NumeroValidar) {
         //Variable para guardar si el número a valir es primo o no
-        boolean validacionPrimo = false;
+        boolean ValidacionPrimo = false;
         //Variable contadora de cantidad de divisibles que tiene el número ingresado
         int CantidadDivisibles = 0;
 
@@ -65,9 +65,9 @@ public class SerieFibonacciRecursiva {
         
         //saber si el valor solo tiene 2 numeros divisibles/ primo
         if (CantidadDivisibles == 2) {
-            validacionPrimo = true;
+            ValidacionPrimo = true;
         }
-        return validacionPrimo;
+        return ValidacionPrimo;
     }
 
 }
